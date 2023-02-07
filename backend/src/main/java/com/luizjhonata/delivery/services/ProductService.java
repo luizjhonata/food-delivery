@@ -22,4 +22,12 @@ public class ProductService {
         return list.stream().map(x -> new ProductDTO(x)).collect(Collectors.toList());
     }
 
+
+    @Transactional
+    public void deleteById(Long id) {
+        if (repository.existsById(id)) {
+            repository.deleteById(id);
+        }
+    }
+
 }
