@@ -30,6 +30,7 @@ The Producs have 2 methods;
 
 - Show ALL Products ordered by PRICE DESC;
 - Insert a NEW PRODUCT;
+- Delete a product;
 
 
 ## In this project i put in pratice my knoledge about: 
